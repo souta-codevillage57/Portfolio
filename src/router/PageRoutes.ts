@@ -1,7 +1,7 @@
+import { Home } from "../components/pages/Home"
 import { Skills } from "../components/pages/Skills"
 import { Products } from "../components/pages/Products"
 import { Contact } from "../components/pages/Contact"
-import { Home } from "../components/pages/Home"
 
 export const pageRoutes = [
 

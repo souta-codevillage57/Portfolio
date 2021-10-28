@@ -1,4 +1,5 @@
 import { memo, ReactNode, VFC } from "react";
+import { BackGroundImg } from "../organisms/layout/BackGroundImg";
 import { Footer } from "../organisms/layout/Footer";
 import { Header } from "../organisms/layout/Header";
 
@@ -11,7 +12,9 @@ export const DefaultLayout: VFC<Props> = memo((props) => {
     return (
         <>
             <Header />
-            {children}
+            <BackGroundImg>
+                {children}
+            </BackGroundImg>
             <Footer />
         </>
     )
