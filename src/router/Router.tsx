@@ -1,6 +1,7 @@
 import { memo, VFC } from "react";
 import { Route, Switch } from "react-router";
 import { Page404 } from "../components/pages/Page404";
+import { DefaultLayout } from "../components/templates/DefaultLayout";
 import { pageRoutes } from "./PageRoutes";
 
 export const Router: VFC = memo(() => {
@@ -9,8 +10,10 @@ export const Router: VFC = memo(() => {
             <Route path="/" render={({ match: { url } }) => (
                 <Switch>
                     {pageRoutes.map((route) => (
-                        <Route exact={route.exact} path={`${url}${route.path}`}>
-                            {route.children}
+                        <Route key={route.path} exact={route.exact} path={`${url}${route.path}`}>
+                            <DefaultLayout>
+                                {route.children}
+                            </DefaultLayout>
                         </Route>
                     ))}
                 </Switch>

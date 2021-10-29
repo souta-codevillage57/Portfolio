@@ -4,9 +4,9 @@ import { memo, VFC } from "react";
 export const Contact: VFC = memo(() => {
     return (
         <Flex flexDirection="column" >
-            <Heading as="h1" fontSize="xl" color="gray.600" textAlign="center" mt={4}>- Contact -</Heading>
+            <Heading as="h1" fontSize="xl" color="white" textAlign="center" mt={4}>- Contact -</Heading>
             <Flex align="center" justify="center" mt={6}>
-                <Box bg="white" w="lg" p={4} borderRadius="md" shadow="md">
+                <Box bg="rgba(255,255,255,0.9)" w="lg" p={4} borderRadius="md" shadow="md">
                     <Heading as="h1" fontSize="lg" textAlign="center">お問い合わせはこちらから</Heading>
                     <Divider my={4} />
                     <Stack spacing={6} py={4} px={10}>
