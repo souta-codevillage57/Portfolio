@@ -11,42 +11,49 @@ export const ProductsData = [
         imageUrl: `${ProductImage1}`,
         product: "Webサイト",
         language: "(HTML,CSS)",
-        content: "HTML,CSSを使ってWebサイトを作りました"
+        content: "スタイルの当て方",
+        source: "https://github.com/souta-codevillage57/website.git"
     },
     {
         imageUrl: `${ProductImage2}`,
         product: "レスポンシブなWebサイト",
         language: "(HTML,CSS,Sass)",
-        content: "HTML,CSS,Sassを使ってレスポンシブなWebサイトを作りました"
+        content: "レスポンシブに対応させること",
+        source: "https://github.com/souta-codevillage57/responsive.git"
     },
     {
         imageUrl: `${ProductImage3}`,
         product: "まるばつゲーム",
         language: "(HTML,CSS,JavaScript)",
-        content: "HTML,CSS,JavaScriptを使ってまるばつゲームを作りました"
+        content: "DOM操作,if文とfor文の組み合わせ",
+        source: "https://github.com/souta-codevillage57/marubatsu.git"
     },
     {
         imageUrl: `${ProductImage4}`,
         product: "ToDoアプリ",
         language: "(React)",
-        content: "Reactを使ってToDoアプリを作りました"
+        content: "コンポーネント分割を意識すること,Map関数の使い方",
+        source: "https://github.com/souta-codevillage57/todoapp.git"
     },
     {
         imageUrl: `${ProductImage5}`,
         product: "チャットアプリ",
         language: "(React,Firebase,ChakraUi)",
-        content: "React,Firebase,ChakraUiを使ってチャットアプリを作りました"
+        content: "Firebaseの導入,ChakraUiの使い方,Atomic Designを意識すること",
+        source: "https://github.com/souta-codevillage57/chatapp.git"
     },
     {
         imageUrl: `${ProductImage6}`,
         product: "ユーザー管理アプリ",
         language: "(React,Typescript,ChakraUi)",
-        content: "React,Typescript,ChakraUiを使ってユーザー管理アプリを作りました"
+        content: "APIからデータを取得・参照すること,Typescriptの型定義",
+        source: "https://github.com/souta-codevillage57/user-admin-app.git"
     },
     {
         imageUrl: `${ProductImage7}`,
         product: "ポートフォリオサイト",
         language: "(React,Typescript,ChakraUi)",
-        content: "React,Typescript,ChakraUiを使ってポートフォリオサイトを作りました"
+        content: "デザインを１から考えること,Typescriptの型定義",
+        source: "https://github.com/souta-codevillage57/Portfolio.git"
     }
 ]

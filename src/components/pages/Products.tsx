@@ -10,7 +10,7 @@ export const Products: VFC = memo(() => {
             <Wrap justify="space-around" p={{ base: 4, md: 10 }}>
                 {ProductsData.map((data, index) => (
                     <WrapItem key={index} mx="auto">
-                        <ProcuctsCard imageUrl={data.imageUrl} product={data.product} language={data.language} content={data.content} />
+                        <ProcuctsCard imageUrl={data.imageUrl} product={data.product} language={data.language} content={data.content} source={data.source} />
                     </WrapItem>
                 ))}
             </Wrap >
