@@ -32,7 +32,7 @@ export const ProcuctsCard: VFC<Props> = memo((props) => {
                         h="120px" borderRadius="10px" bgSize="cover" bgPosition="center" display="block" mx="auto"
                     />
                 </Link>
-                <Text fontSize="md" color="gray.700">・苦労した点：{content}</Text>
+                <Text fontSize="md" color="gray.700">{content}</Text>
                 <Text fontSize="md" color="gray.700">ソースコード⬇</Text>
                 <Link as="a" href={source} fontSize="md" color="gray.800" >{source}</Link>
             </Stack>
