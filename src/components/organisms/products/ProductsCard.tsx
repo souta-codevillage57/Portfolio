@@ -10,10 +10,11 @@ type Props = {
     language: string;
     content: string;
     source: string;
+    link: string;
 }
 
 export const ProcuctsCard: VFC<Props> = memo((props) => {
-    const { imageUrl, product, language, content, source } = props;
+    const { imageUrl, product, language, content, source, link } = props;
     return (
         <Box
             p={4}
@@ -26,7 +27,7 @@ export const ProcuctsCard: VFC<Props> = memo((props) => {
             <Stack textAlign="center" >
                 <Text fontSize="lg" fontWeight="bold">{product}</Text>
                 <Text fontSize="md" color="gray.800">{language}</Text>
-                <Link >
+                <Link href={link}>
                     <Image alt={product} src={imageUrl}
                         h="120px" borderRadius="10px" bgSize="cover" bgPosition="center" display="block" mx="auto"
                     />
