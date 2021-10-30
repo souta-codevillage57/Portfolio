@@ -27,7 +27,7 @@ export const ProcuctsCard: VFC<Props> = memo((props) => {
             <Stack textAlign="center" >
                 <Text fontSize="lg" fontWeight="bold">{product}</Text>
                 <Text fontSize="md" color="gray.800">{language}</Text>
-                <Link as="a" href={productUrl} >
+                <Link as="a" href={productUrl} _focus={{ outline: "none" }}>
                     <Image alt={product} src={imageUrl}
                         h="120px" borderRadius="10px" bgSize="cover" bgPosition="center" display="block" mx="auto"
                     />
