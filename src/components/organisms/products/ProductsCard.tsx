@@ -19,7 +19,7 @@ export const ProcuctsCard: VFC<Props> = memo((props) => {
         <Box
             p={4}
             w="300px"
-            h="400px"
+            h="360px"
             bg="rgba(255,255,255,0.9)"
             borderRadius="10px"
             shadow="md"
@@ -33,8 +33,7 @@ export const ProcuctsCard: VFC<Props> = memo((props) => {
                     />
                 </Link>
                 <Text fontSize="md" color="gray.700">{content}</Text>
-                <Text fontSize="md" color="gray.700">ソースコード⬇</Text>
-                <Link as="a" href={source} fontSize="md" color="gray.800" >{source}</Link>
+                <Link as="a" href={source} fontSize="md" color="gray.900" >（ソースコードはこちらから）</Link>
             </Stack>
         </Box>
     )
