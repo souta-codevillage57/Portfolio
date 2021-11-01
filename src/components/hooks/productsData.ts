@@ -60,7 +60,7 @@ export const ProductsData = [
         product: "ポートフォリオサイト",
         language: "(React,Typescript,ChakraUi)",
         content: "UI構築を意識しました。デザインを考えること、デプロイのやり方に苦戦しました。",
-        productUrl: "https://souta-takahashi-portfolio.herokuapp.com/",
+        productUrl: "https://portfolio-black-rho-69.vercel.app/",
         source: "https://github.com/souta-codevillage57/Portfolio.git"
     }
 ]
